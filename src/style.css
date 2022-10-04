@@ -1,1 +1,31 @@
 /* styles go here */
+/* 
+.form-field {
+  display: block;
+  margin: 10px 0;
+
+}
+
+.fields {
+
+  padding-top: 0;
+
+  padding-bottom: 0;
+  margin: 20px 0;
+}
+
+.fields:first-child {
+  margin-top: 0;
+} */
+
+.fields {
+  margin-bottom: 20px;
+}
+
+.form-field {
+  display: block;
+}
+
+.form-field:not(:last-child) {
+  margin-bottom: 10px;
+}
